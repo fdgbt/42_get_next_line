@@ -44,7 +44,7 @@ static int		ft_addlist(int fd, t_list **first, t_list *temp, t_list *last)
 static int		ft_initbuff(int fd, t_list **first, char **buff)
 {
 	int		ret;
-	t_list	*temp;
+	t_list		*temp;
 
 	temp = *first;
 	while (temp && temp->fd != fd)
@@ -94,7 +94,7 @@ static int		ft_splitendline(char *buff, char **new)
 
 static int		ft_createlinefull(char **full, char **new)
 {
-	char	*temp;
+	char		*temp;
 
 	temp = NULL;
 	if (!*new)
@@ -118,11 +118,11 @@ static int		ft_createlinefull(char **full, char **new)
 
 int				ft_get_next_line(const int fd, char **line)
 {
-	static t_list	*first = NULL;
+	static t_list		*first = NULL;
 	char			*buff;
 	char			*new;
-	int				ret;
-	int				next;
+	int			ret;
+	int			next;
 
 	buff = NULL;
 	new = NULL;
