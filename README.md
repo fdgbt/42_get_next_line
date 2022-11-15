@@ -4,7 +4,7 @@ Can be added to static library.
 
 ## Man
 Take a File Descriptor (const int) then a pointer to string (char **) as arguments.
-Return integer 0 when file ended, 1 instead.
+Return 0 (int) when file ended, 1 instead. Return -1 (int) if invalid argument or an error occured by OS limitation.
 
 ## Bonus
 Manage various File Descriptor with internal chained list, allowing the reading of various files simultaneously without repositionning the read file offset.
