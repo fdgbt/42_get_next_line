@@ -18,11 +18,11 @@
 
 typedef struct			s_list
 {
-	int					fd;
-	char				buff[BUFF_SIZE + 1];
+	int			fd;
+	char			buff[BUFF_SIZE + 1];
 	struct s_list		*next;
-}						t_list;
+}				t_list;
 
-int						get_next_line(const int fd, char **line);
+int				get_next_line(const int fd, char **line);
 
 #endif
