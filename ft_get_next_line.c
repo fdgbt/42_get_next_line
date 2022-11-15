@@ -116,13 +116,13 @@ static int		ft_createlinefull(char **full, char **new)
 	return (0);
 }
 
-int				ft_get_next_line(const int fd, char **line)
+int			ft_get_next_line(const int fd, char **line)
 {
-	static t_list		*first = NULL;
-	char			*buff;
-	char			*new;
-	int			ret;
-	int			next;
+	static t_list	*first = NULL;
+	char		*buff;
+	char		*new;
+	int		ret;
+	int		next;
 
 	buff = NULL;
 	new = NULL;
