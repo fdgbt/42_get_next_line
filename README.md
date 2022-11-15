@@ -1,6 +1,6 @@
 # 42_get_next_line
 Function to read each line of a file.  
-Can be added to static library.
+Can be added to a static library.
 
 ## Man
 Take a File Descriptor (const int) then a pointer to string (char **) as arguments.  
