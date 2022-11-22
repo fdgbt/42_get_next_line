@@ -13,3 +13,8 @@ Manage various File Descriptor with internal chained list, allowing the reading 
 ## Notes
 When file ended, internal function "ft_add_list" is called one last time to free the corresponding element of the chained list , avoiding memory leak.  
 Internal structure is deliberately reduced to be compliant with the famous 42 Norm (V2).
+
+## Keywords
+Filedescriptors  
+Bufferisation  
+Parsing   
